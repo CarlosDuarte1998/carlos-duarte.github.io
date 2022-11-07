@@ -17,4 +17,21 @@ listElements.forEach(listElement => {
 });
 
 
+let     elementoID = document.getElementById('sizeimage');
+
+function SizeImage(){
+  
+ if (screen.width<700) {
+    elementoID.removeAttribute('style')
+ } else{
+ 
+  if(screen.width>700){
+   elementoID.setAttribute('style', 'width: 35%; height: auto;');
+
+ }
+
+ }
+}
+
+
 

@@ -50,7 +50,13 @@ color: #fff;
 .sombras{
 
     box-shadow: 5px 5px 40px; 
-   
+    
+}
+
+.listas{
+    list-style: none;
+
+    align-items: center;
 }
 
 
